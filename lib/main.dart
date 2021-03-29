@@ -23,7 +23,6 @@ class _XyloAppState extends State<XyloApp> {
       child: FlatButton(
         color: color,
         onPressed: () {
-          final player = AudioCache();
           playSound(soundNum);
         },
         child: Text(''),
